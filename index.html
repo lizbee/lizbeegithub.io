@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Lizbee:) </title>
+    <link type="text/css" rel="stylesheet" href="main2.css" />
+    <script>
+    function banner(){
+      var text=confirm(Did you really want to click on my banner); return text;
+    }
+    
+    function answer(){
+      var radio = document.getElementsByName("trivia");
+      var selection = false;
+      var message = "";
+      
+      for( var i = 0; i < radio.length; i++) { 
+        if(radio[i].value =="7" && radio[i].checked == true) {
+          selection = true;
+        } //end if statement
+      } //end for loop
+   
+     if(selection == true) {
+     message = message + "<b><p 
+ style='color:green'>Way to go!</p></b>"; 
+  } else { 
+    message = message + "<b><p 
+ style='color:red'>Try again my friend.</p></b>"; 
+    }
+     document.getElementById("response").innerHTML = message;
+ 
+     } //end function answer
+
+    </script>
+    <style>
+    </style>
+  </head>
+  <nav>
+    <ul id="navmenu">
+      <li class="navitem"> <a href="index.html"> Pg 1 </a> </li>
+      <li class="navitem"> <a href="pictures.html"> Pg 2 </a> </li>
+      <li class="navitem"> <a href="books.html"> Pg 3 </a> </li>
+    </ul>
+  </nav>
+ <body id="background">
+ <a href="http://www.gutenberg.org/"
+ onclick="return banner()">
+   <header id="header"> My Website </header>
+ </a>
+   <marquee>LIZBEE THE BOOK BEE</marquee>
+   <p class="opening">Books are <u>my</u> <b>favorite!</b> We can learn so many valuable lessons from them that we can apply in our everday lives. Characters in the books can also help us improove ourselves and teach us good character traits that we might want to develop in ourselves. <i>In general books are super fun to just sit down and read.</i>
+   </p>
+ <div id="rightside">
+       <strong class="listitemtitle"> Some of my favorite books are...</slistitem
+   <ul>
+     <li class="listitem">Harry Potter</li>
+     <li class="listitem">Lord Of The Rings</li>
+     <li class="listitem">Sherlock Holmes</li>
+   </ul>
+   <div class="wrap-trivia">
+   <h2>Harry Potter Trivia Question...</h2>
+   <p class="paragraph">How many <span class="wrap-text">players</span> are on a single quidditch team?</p>
+  <form>
+    <div id="response"></div> 
+    <input type="radio"name="trivia"value="5">5<br>
+   <input type="radio"name="trivia"value="7">7<br>
+   <input type="radio"name="trivia"value="14">14<br>
+   <input type="radio"name="trivia"value="12">12<br>
+   <input type="button"value="Submit" id="button" onclick="answer()">
+  </form>
+</div>
+</div>
+<div id="leftside">
+  <div class="wrap-video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/V75dMMIW2B4?rel=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <audio width="400" height="220" controls autoplay>
+    <source src="https://www.soundjay.com/misc/sounds/page-flip-7.mp3" type="audio/mpeg">
+  </audio>
+  <img src="https://static.dreamstime.com/t/colorful-books-wooden-shelf-free-copy-space-42391294.jpg"/>
+  <img src="https://static.dreamstime.com/t/book-shelves-library-22895788.jpg"/>
+</div>
+<div class="clearfloat"> </div>
+<center> Lizbee <a href="https://www.lds.org/?lang=eng"> My favorite website</a> </center>
+   <footer>Lizbee</footer>
+ </body>
+</html>

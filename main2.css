@@ -1,0 +1,141 @@
+   marquee{  
+    color:green;
+	font-size:20px;
+	}
+
+.listitem{
+  color:green;
+  font-size:18px;
+}
+
+.listitemtitle{
+	color:pink;
+	font-size:24px;
+}
+.paragraph {
+	color:green;
+	font-size:1.1em;
+}
+
+.opening {
+	color:pink;
+	font-size:17px;
+}
+
+.title {
+	color:pink;
+}
+
+#background {
+	background-color:white;
+}
+
+#button {	
+	width:100px; 
+    height:50px;
+	color:white;
+	background-color:black;
+	border-radius:10px;
+}
+
+header {
+	height:20px;
+	width:6%;
+	border:2px solid black;
+	background-color:#00ffff;
+	margin-bottom:1em;
+}
+
+footer {
+	height:20px;
+	width:6%;
+	border:2px solid black;
+	background-color:#00ffff;
+	color:black;
+	font-size:20px;
+}
+
+.wrap-trivia {
+	height:350px;
+	width:500px;
+	border:10px double black;
+	margin:auto;	
+}
+
+.wrap-text {
+	color:#00cc00;
+	font-size:25px;
+}
+
+.wrap-video {
+	margin-top:15em;
+}
+#one{
+	height:145px;
+	width:145px;
+	background-color: blue;
+	display: inline-block;
+	position:absolute;
+	z-index: 2;
+	position:fixed;
+	left:25%;
+}
+
+#two{
+	height:145px;
+	width:145px;
+	background-color: green;
+	display:inline-block;
+	position:absolute;
+	z-index: 1;
+}
+
+#three{
+	height:145px;
+	width:145px;
+	background-color:yellow;
+	display:inline-block;
+	position:absolute;
+}
+
+.navitem {
+	list-style-type:none;
+	display:inline;
+	padding-right:1.5em;
+}
+
+#navmenu {
+	width:250px;
+	height:30px;
+	margin:auto;
+}
+
+a:link{
+	color:black;
+}
+
+a:visited{
+	color:blue;
+}
+
+a:hover{
+	color:orange;
+}
+
+a:active{
+	color:black;
+}
+
+#rightside {
+	float:right;
+    width:40%;
+}
+
+#leftside {
+	width:60%;
+}
+
+.clearfloat {
+	clear:both;
+}
+
